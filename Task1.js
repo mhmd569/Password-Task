@@ -11,7 +11,7 @@
     };
     const generatePasswords = () => {
         const charSets = {
-            weekly: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",  // مجموعة الحروف للأسبوعية
+            weekly: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",  // مجموعة الحروف الضعيفة
             medium: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",  // مجموعة الحروف للمتوسطة
             strong: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+"  // مجموعة الحروف للقوية
         };
